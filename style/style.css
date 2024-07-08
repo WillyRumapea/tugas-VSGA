@@ -127,3 +127,20 @@ footer .container-footer ul li {
 footer .container-footer ul li a {
   color: #f0f0f0;
 }
+
+/* pop up box */
+.popUp {
+  display: flex;
+  position: absolute;
+  top: 120%;
+  left: 30%;
+  padding: 30px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  width: 500px;
+  height: 280px;
+  border-radius: 30px;
+}

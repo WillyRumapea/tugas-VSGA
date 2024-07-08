@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfc;
+  background-image: url("/image/main-img.jpg");
+  background-repeat: no-repeat;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+header nav h1 {
+  border-bottom: 1.5px solid #fff;
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #868585;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header nav ul li a:hover {
+  color: #080808;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+header nav .ham-menu {
+  display: none;
+}
+
+header nav .user {
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid; */
+}
+
+article.content-beranda {
+  margin-top: 23px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article.content-beranda .beranda p {
+  font-size: 24px;
+  color: #fff;
+}
+
+article.paket-wisata .container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  /* border: 1px solid #fff; */
+}
+
+article.paket-wisata .container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  /* border: 1px solid; */
+}
+
+article.paket-wisata .container ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+article.paket-wisata .container ul li img {
+  width: 300px;
+  height: 180px;
+}
+
+footer .container-footer {
+  margin-top: 50px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid;
+}
+
+footer .container-footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+footer .container-footer ul li {
+  list-style-type: none;
+}
+
+footer .container-footer ul li a {
+  color: #f0f0f0;
+}
